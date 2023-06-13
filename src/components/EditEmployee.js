@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-const endpoint = "http://localhost:8000/api/employee/";
+const endpoint = "https://api-be-production.up.railway.app/api/employee/";
 const EditEmployee = () => {
   const [name, setName] = useState("");
   const [last_name, setLastName] = useState("");
